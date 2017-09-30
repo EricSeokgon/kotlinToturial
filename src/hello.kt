@@ -7,6 +7,7 @@ fun main(args: Array<String>) {
     println(makeMessage1(2))
     println(makeMessage2(1))
     println(makeMessage2(2))
+
 }
 
 fun makeMessage1(msgType: Int): String {
