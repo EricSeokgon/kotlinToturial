@@ -19,3 +19,4 @@ fun makeMessage2(msgType: Int) = if (msgType == 1) "날씨 좋죠?" else "참 �
 
 
 
+
