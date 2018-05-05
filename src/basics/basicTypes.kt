@@ -10,4 +10,10 @@ fun main(args: Array<String>) {
     val boxedA: Int? = a
     val anotherBoxedA: Int? = a
     print(boxedA === anotherBoxedA) // !!!Prints 'false'!!!
+
+    val a: Int = 10000
+    print(a == a) // Prints 'true'
+    val boxedA: Int? = a
+    val anotherBoxedA: Int? = a
+    print(boxedA == anotherBoxedA) // Prints 'true'
 }
