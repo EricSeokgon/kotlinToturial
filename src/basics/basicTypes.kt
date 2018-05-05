@@ -16,4 +16,9 @@ fun main(args: Array<String>) {
     val boxedA: Int? = a
     val anotherBoxedA: Int? = a
     print(boxedA == anotherBoxedA) // Prints 'true'
+
+    // Hypothetical code, does not actually compile:
+    val a: Int? = 1 // A boxed Int (java.lang.Integer)
+    val b: Long? = a // implicit conversion yields a boxed Long (java.lang.Long)
+    print(a == b) // Surprise! This prints "false" as Int's equals() checks whether the other is Long as well
 }
