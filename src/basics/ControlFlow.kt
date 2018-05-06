@@ -13,4 +13,13 @@ fun main(args: Array<String>) {
 
 // As expression
     val max = if (a > b) a else b
+
+
+    val max = if (a > b) {
+        print("Choose a")
+        a
+    } else {
+        print("Choose b")
+        b
+    }
 }
