@@ -35,4 +35,9 @@ fun main(args: Array<String>) {
         0, 1 -> print("x == 0 or x == 1")
         else -> print("otherwise")
     }
+
+    when (x) {
+        parseInt(s) -> print("s encodes x")
+        else -> print("s does not encode x")
+    }
 }
