@@ -47,4 +47,9 @@ fun main(args: Array<String>) {
         !in 10..20 -> print("x is outside the range")
         else -> print("none of the above")
     }
+
+    fun hasPrefix(x: Any) = when(x) {
+        is String -> x.startsWith("prefix")
+        else -> false
+    }
 }
