@@ -52,4 +52,10 @@ fun main(args: Array<String>) {
         is String -> x.startsWith("prefix")
         else -> false
     }
+
+    when {
+        x.isOdd() -> print("x is odd")
+        x.isEven() -> print("x is even")
+        else -> print("x is funny")
+    }
 }
