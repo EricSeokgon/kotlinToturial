@@ -58,4 +58,11 @@ fun main(args: Array<String>) {
         x.isEven() -> print("x is even")
         else -> print("x is funny")
     }
+
+    for (item in collection) print(item)
+
+    for (item: Int in ints) {
+        // ...
+    }
+
 }
