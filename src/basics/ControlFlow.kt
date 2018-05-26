@@ -64,6 +64,11 @@ fun main(args: Array<String>) {
     for (item: Int in ints) {
         // ...
     }
-
+    for (i in 1..3) {
+        println(i)
+    }
+    for (i in 6 downTo 0 step 2) {
+        println(i)
+    }
 
 }
