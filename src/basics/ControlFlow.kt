@@ -70,5 +70,12 @@ fun main(args: Array<String>) {
     for (i in 6 downTo 0 step 2) {
         println(i)
     }
+    for (i in array.indices) {
+        println(array[i])
+    }
+
+    for ((index, value) in array.withIndex()) {
+        println("the element at $index is $value")
+    }
 
 }
