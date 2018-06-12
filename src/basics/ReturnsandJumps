@@ -4,4 +4,10 @@ fun main(args: Array<String>) {
     loop@ for (i in 1..100) {
         // ...
     }
+
+    loop@ for (i in 1..100) {
+        for (j in 1..100) {
+            if (...) break@loop
+        }
+    }
 }
